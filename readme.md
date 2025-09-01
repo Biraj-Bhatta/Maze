@@ -75,7 +75,7 @@ Output:
 A******█
 ████████
 
-Total Node Explored : 12
+Total Node Explored : 19
 ```
 
 ---
