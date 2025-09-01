@@ -45,10 +45,14 @@ A maze is a **text file** where:
 Example (**maze1.txt**):
 
 ```
-########
-#A    B#
-# #### #
+###### B
+###### #
 #      #
+# ## ###
+#  #   #
+# #### #
+# #### #
+A      #
 ########
 ```
 
@@ -61,13 +65,17 @@ python maze.py
 Output:
 
 ```
-########
-#A****B#
-# #### #
-#      #
-########
+██████*B
+██████*█
+█   ***█
+█ ██*███
+█  █***█
+█ ████*█
+█ ████*█
+A******█
+████████
 
-Totl Node Explored : 12
+Total Node Explored : 12
 ```
 
 ---
@@ -110,7 +118,7 @@ if __name__ == "__main__":
 For a solvable maze:
 
 ```
-Totl Node Explored : 100
+Total Node Explored : 100
 ███████████████████████████████████████
 █A****************************   █   ██
 █ ███ █████ ███ ███ ███ █████*█████ █ █
@@ -133,7 +141,7 @@ Totl Node Explored : 100
 █   █   █   █   █   █   █     █     █B█
 ███████████████████████████████████████
 
-Totl Node Explored : 19
+Total Node Explored : 19
 ██████*B
 ██████*█
 █   ***█
@@ -144,7 +152,6 @@ Totl Node Explored : 19
 A******█
 ████████
 
-Totl Node Explored : 18
 ```
 
 ---
